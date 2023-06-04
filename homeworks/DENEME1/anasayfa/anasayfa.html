@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head >
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- header -->
+    <link rel="stylesheet" href="../header/header.css">
+    <!-- anasayfa -->
+    <link rel="stylesheet" href="anasayfa.css">
+    <!-- section -->
+    <link rel="stylesheet" href="../section/section.css">
+    <!--icon  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,500;1,400;1,900&display=swap"
+        rel="stylesheet">
+
+    <title>Live View Page - 564 plot listing Template</title>
+    <!-- fav icon -->
+    <link rel="icon" type="image/x-icon" href="../anasayfa/resimvelogo/753264.png">
+</head>
+
+<body>
+    <div class="anadiv">
+        <div class="header">
+            <div class="içdiv">
+                <div class="logo"> <a href="#"><img src="../anasayfa/resimvelogo/white-logo.png" alt=""></a> </div>
+                <div class="navigation">
+                    <ul>
+                        <li class="li1"><a href="#">HOME</a></li>
+                        <li class="li2"><a href="#">CATEGORY</a> </li>
+                        <li class="li3"><a href="#">LISTING</a></li>
+                        <li class="li4"><a href="#">CONTACT US</a> </li>
+
+                    </ul>
+                </div>
+                <div>
+                    <button class="buton">
+                        <i class="fa fa-plus"></i>
+                        <span class="bt">Add Your Listing</span> </button>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="section">
+            <div class="sad">
+                <h4>OVER 36,500+ ACTIVE LISTINGS</h6>
+                    <h1>Find Nearby Places & Things</h2>
+
+                        <div class="filter">
+                            <div>
+                                <div class="mekan">
+                                    <select name="areas" id="areas">
+                                        <option value="all areas">All Areas</option>
+                                        <option value="new village">New Village</option>
+                                        <option value="old town">Old Town</option>
+                                        <option value="modern city">Modern City</option>
+                                    </select>
+                                </div>
+
+                                <div class="location">
+                                    <input type="text" name="location" id="location"
+                                        placeholder="       Enter a location">
+                                </div>
+                                <div class="price">
+                                    <select name="price" id="price">
+                                        <option value="pricerange">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Price
+                                            Range</option>
+                                        <option value="1">$100 - $250</option>
+                                        <option value="2">$250 - $500</option>
+                                        <option value="3">$500 - $1000</option>
+                                        <option value="4">$1000 or more</option>
+                                    </select>
+                                </div>
+
+                                <div class="searchdiv">
+                                    <button class="searchbutton" type="submit" >
+                                        <div class="searchi">
+                                            <i class="fa-solid fa-magnifying-glass"></i>
+                                        </div>
+                                        <span class="search">Search Now</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="icon1">
+                            <ul>
+                                <li>
+                                    <a href="#açıklama">
+                                        <span class="span1" onclick="document.getElementById('div1').onclick()">
+                                            <i class="fa fa-house"></i>
+                                        </span>Apartments
+                                    </a>
+                                </li>
+
+
+                                <li>
+                                    <a href="#açıklama">
+                                        <span class="span2" onclick="document.getElementById('div2').onclick()">
+                                            <i class="fa fa-burger"></i>
+                                        </span>Food & Life
+                                    </a>
+                                </li>
+
+
+                                <li>
+                                    <a href="#açıklama">
+                                        <span class="span3" onclick="document.getElementById('div3').onclick()">
+                                            <i class="fa fa-car"></i>
+                                        </span>Cars
+                                    </a>
+                                </li>
+
+
+                                <li>
+                                    <a href="#açıklama">
+                                        <span class="span4" onclick="document.getElementById('div4').onclick()">
+                                            <i class="fa fa-bag-shopping"></i>
+                                        </span>Shopping
+                                    </a>
+                                </li>
+
+
+                                <li>
+                                    <a href="#açıklama">
+                                        <span class="span5" onclick="document.getElementById('div5').onclick()">
+                                            <i class="fa fa-earth-americas"></i>
+                                        </span>Traveling
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+            </div>
+        </div>
+
+        <div class="populer">
+            <span id="açıklama"></span>
+            <h1 class="yazi1">Popular Categories</h1>
+            <h4 class="yazi2">CHECK THEM OUT</h4>
+
+            <div class="populer1">
+                <div class="left">
+
+                    <div class="div1 bg-light bg-dark" id="div1" onclick="for(let index = 1; index < 6; index++) {
+                        document.getElementById('div'+index).classList.remove('bg-dark');
+                        document.getElementById('right'+index).classList.remove('rightac');
+                    }document.getElementById('div1').classList.add('bg-dark');document.getElementById('right1').classList.add('rightac');">
+                        <span class="icon">
+                            <i class="fa fa-house"></i>
+                        </span>
+                        Apartments
+                    </div>
+
+                    <div class="div2 bg-light" id="div2" onclick="for(let index = 1; index < 6; index++) {
+                        document.getElementById('div'+index).classList.remove('bg-dark');
+                        document.getElementById('right'+index).classList.remove('rightac');
+                    }document.getElementById('div2').classList.add('bg-dark'); document.getElementById('right2').classList.add('rightac');">
+                        <span class="icon">
+                            <i class="fa fa-burger"></i>
+                        </span>
+                        Food & Life
+                    </div>
+
+
+                    <div class="div3 bg-light" id="div3" onclick="for(let index = 1; index < 6; index++) {
+                        document.getElementById('div'+index).classList.remove('bg-dark');
+                        document.getElementById('right'+index).classList.remove('rightac');
+                    }document.getElementById('div3').classList.add('bg-dark'); document.getElementById('right3').classList.add('rightac');">
+                        <span class="icon">
+                            <i class="fa fa-car"></i>
+                        </span>
+                        Cars
+                    </div>
+
+
+                    <div class="div4 bg-light" id="div4" onclick="for(let index = 1; index < 6; index++) {
+                        document.getElementById('div'+index).classList.remove('bg-dark');
+                        document.getElementById('right'+index).classList.remove('rightac');
+                    }document.getElementById('div4').classList.add('bg-dark'); document.getElementById('right4').classList.add('rightac');">
+                        <span class="icon">
+                            <i class="fa fa-bag-shopping"></i>
+                        </span>
+                        Shopping
+                    </div>
+
+
+                    <div class="div5 bg-light" id="div5" onclick="for(let index = 1; index < 6; index++) {
+                        document.getElementById('div'+index).classList.remove('bg-dark');
+                        document.getElementById('right'+index).classList.remove('rightac');
+                    }document.getElementById('div5').classList.add('bg-dark'); document.getElementById('right5').classList.add('rightac');">
+                        <span class="icon">
+                            <i class="fa fa-earth-americas"></i>
+                        </span>
+                        Traveling
+                    </div>
+
+
+                </div>
+
+
+                <div class="right rightac" id="right1">
+                    <span class="h4">One 111 Of The Most Trending Stuffs Right Now!</span>
+
+                    <span class="pre">
+                        Plot Listing is a responsive Bootstrap 5 website
+                        template that included 4 different HTML pages.
+                        This template is provided by TemplateMo
+                        website.You can apply this layout for your static
+                        or dynamic CMS websites.
+                    </span>
+
+                    <button class="a-eye btn-degis" onclick="btn1()">
+                        <i class="fa-solid fa-eye"></i>
+                        <span>
+                            Discover More
+                        </span>
+                    </button>
+
+                    <div class="popular-image">
+                        <img class="image-degis1" src="../anasayfa/resimvelogo/kategory-resim.jpg" alt="">
+                    </div>
+                </div>
+
+
+
+                <div class="right" id="right2">
+                    <span class="h4">Food & Life</span>
+
+                    <span class="pre">
+                        Plot Listing is a responsive Bootstrap 5 website
+                        template that included 4 different HTML pages.
+                        This template is provided by TemplateMo
+                        website.You can apply this layout for your static
+                        or dynamic CMS websites.
+                    </span>
+
+                    <button class="a-eye btn-degis" onclick="btn2()">
+                        <i class="fa-solid fa-eye"></i>
+                        <span>
+                            Discover More
+                        </span>
+                    </button>
+
+                    <div class="popular-image">
+                        <img class="image-degis2" src="../anasayfa/resimvelogo/kategory-resim.jpg" alt="">
+                    </div>
+                </div>
+
+
+
+
+
+                <div class="right" id="right3">
+                    <span class="h4">One 333 Of The Most Trending Stuffs Right Now!</span>
+
+                    <span class="pre">
+                        Plot Listing is a responsive Bootstrap 5 website
+                        template that included 4 different HTML pages.
+                        This template is provided by TemplateMo
+                        website.You can apply this layout for your static
+                        or dynamic CMS websites.
+                    </span>
+
+                    <button class="a-eye btn-degis" onclick="btn3()">
+                        <i class="fa-solid fa-eye"></i>
+                        <span>
+                            Discover More
+                        </span>
+                    </button>
+
+                    <div class="popular-image">
+                        <img class="image-degis3" src="../anasayfa/resimvelogo/kategory-resim.jpg" alt="">
+                    </div>
+                </div>
+
+
+
+
+                <div class="right" id="right4">
+                    <span class="h4">One 444 Of The Most Trending Stuffs Right Now!</span>
+
+                    <span class="pre">
+                        Plot Listing is a responsive Bootstrap 5 website
+                        template that included 4 different HTML pages.
+                        This template is provided by TemplateMo
+                        website.You can apply this layout for your static
+                        or dynamic CMS websites.
+                    </span>
+
+                    <button class="a-eye btn-degis" onclick="btn4()">
+                        <i class="fa-solid fa-eye"></i>
+                        <span>
+                            Discover More
+                        </span>
+                    </button>
+
+                    <div class="popular-image">
+                        <img class="image-degis4" src="../anasayfa/resimvelogo/kategory-resim.jpg" alt="">
+                    </div>
+                </div>
+
+
+
+
+                <div class="right" id="right5">
+                    <span class="h4">One 555 Of The Most Trending Stuffs Right Now!</span>
+
+                    <span class="pre">
+                        Plot Listing is a responsive Bootstrap 5 website
+                        template that included 4 different HTML pages.
+                        This template is provided by TemplateMo
+                        website.You can apply this layout for your static
+                        or dynamic CMS websites.
+                    </span>
+
+                    <button class="a-eye btn-degis" onclick="btn5()">
+                        <i class="fa-solid fa-eye"></i>
+                        <span>
+                            Discover More
+                        </span>
+                    </button>
+
+                    <div class="popular-image">
+                        <img class="image-degis5" src="../anasayfa/resimvelogo/kategory-resim.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- liste -->
+
+    <div class="liste">
+        <h1>Recent Listing</h1>
+        <h4>CHECK THEM OUT</h4>
+
+    </div>
+    <div class="liste-resim1">
+        <img src="../anasayfa/resimvelogo/listing-01.jpg" alt="">
+        <div class="liste-yazi1">
+            <h3>1. First Apartment Unit</h3>
+            <span class="liste-sale">by: Sale Agent</span>
+            <div class="fiyat">
+                <i class="fa fa-tag"></i>
+                <span>
+                    $450 - $950/month with taxes
+                </span>
+            </div>
+            <div class="details">
+                <span>Details:</span> 2760 sq ft
+            </div>
+
+            <div class="bedrooms">
+                <i class="fa fa-bed"></i>
+                <span>
+                    4 Bedrooms
+                </span> <br><br>
+                <i class="fa fa-bath"></i>
+                <span>4 Bathrooms</span>
+            </div>
+
+        </div>
+        <div class="liste-yazi2">
+            <div>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                (18) Reviews
+
+            </div>
+
+            <div class="liste-buton1">
+                <i class="fa fa-eye"></i>
+                Contact Now
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="liste-resim2">
+        <img src="../anasayfa/resimvelogo/listing-02.jpg" alt="">
+        <div class="liste-yazi1">
+            <h3>2. Another House of Gaming</h3>
+            <span class="liste-sale">by: Sale Agent</span>
+            <div class="fiyat">
+                <i class="fa fa-tag"></i>
+                <span>
+                    $1,400 - $3,500/month with taxes
+                </span>
+            </div>
+            <div class="details">
+                <span>Details:</span> 3650 sq ft
+            </div>
+
+            <div class="bedrooms">
+                <i class="fa fa-bed"></i>
+                <span>
+                    4 Bedrooms
+                </span> <br><br>
+                <i class="fa fa-bath"></i>
+                <span>3 Bathrooms</span>
+            </div>
+
+        </div>
+        <div class="liste-yazi2">
+            <div>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                (24) Reviews
+
+            </div>
+
+            <div class="liste-buton1">
+                <i class="fa fa-eye"></i>
+                Contact Now
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="liste-resim3">
+        <img src="../anasayfa/resimvelogo/listing-03.jpg" alt="">
+        <div class="liste-yazi1">
+            <h3>3. Secret Place Hidden House</h3>
+            <span class="liste-sale">by: Sale Agent</span>
+            <div class="fiyat">
+                <i class="fa fa-tag"></i>
+                <span>
+                    $1,400 - $3,600/month with taxes
+                </span>
+            </div>
+            <div class="details">
+                <span>Details:</span> 5500 sq ft
+            </div>
+
+            <div class="bedrooms">
+                <i class="fa fa-bed"></i>
+                <span>
+                    4 Bedrooms
+                </span> <br><br>
+                <i class="fa fa-bath"></i>
+                <span>3 Bathrooms</span>
+            </div>
+
+        </div>
+        <div class="liste-yazi2">
+            <div>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                (36) Reviews
+
+            </div>
+
+            <div class="liste-buton1">
+                <i class="fa fa-eye"></i>
+                Contact Now
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="liste-geçiş">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <!-- footer -->
+
+
+    <div class="footer">
+        <div class="footer-üst">
+
+
+            <div class="footer-logo">
+                <img src="../anasayfa/resimvelogo/black-logo.png" alt="">
+                <p>
+                    If you consider that Plot Listing template is useful for your website, please support us a little
+                    via PayPal.
+                </p>
+            </div>
+
+
+            <div class="footer-helpful">
+                <h4>Helpful Links</h4>
+                <div class="footer-sol">
+                    <ul>
+                        <li><a href="#">Categories</a></li>
+                        <li><a href="#">Reviews</a></li>
+                        <li><a href="#">Listing</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-sağ">
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Awards</a></li>
+                        <li><a href="#">Useful Sites</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+
+            <div class="footer-contact">
+                <div class="footer-contact-iç">
+                    <h4 class="content-h4">Contact Us</h4>
+                    <p class="content-p">27th Street of New Town, Digital Villa</p>
+                    <a href="#" class="contact-a1">
+                        010-020-0340
+                    </a>
+                    <a href="#" class="contact-a2">
+                        090-080-0760
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="footer-alt">
+            <a>Copyright © 2021 Plot Listing Co., Ltd. All Rights Reserved.
+                Design: TemplateMo</a>
+        
+        </div>
+
+    </div>
+
+    <!-- yüklenme ekranı-->
+
+   
+    
+    <script src="../js/script.js"></script>
+
+</body>
+
+</html>

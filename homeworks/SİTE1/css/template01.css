@@ -1,0 +1,527 @@
+*{
+    margin: 0;
+    padding: 0;
+    border:0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    outline: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#container{
+    width: 100%;
+    background-color: #fff;
+    /* border:1px solid red; */
+}
+#header{
+    width: 100%;
+}
+.ortala{
+    width: 80%;
+    margin: auto;
+    height: inherit;
+}
+/* Header üst kısım */
+.top-header{
+    width: 100%;
+    background-color: #f9c10b;
+    height: 60px;
+}
+.header-left{
+    float: left;
+    width: 40%;
+    line-height: 60px;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#fff;
+}
+.icon
+{
+    font-size:24px;
+    color:#000;
+}
+.header-right{
+    float: right;
+    width: 60%;
+    text-align: right;
+    line-height: 60px;
+    padding-top:12px;
+}
+.header-right ul li{
+    float: left;
+    background-color: white;
+    margin-right: 2px;
+    text-align: center;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+}
+.header-right i{
+    font-size: 20px;
+}
+.header-right ul li i:hover{
+    cursor: pointer;
+    color:#f9c10b ;
+    transition: all .5s;
+}
+.sagagotur{
+    width: 20%;
+    float: right;
+}
+/* Header üst kısım sonu */
+/* Navbar başlangıç */
+.navbar{
+    width: 100%;
+    height: 75px;
+    background-color: white;
+    font-size: 32px;
+    line-height: 75px;
+} 
+.logo{
+    width: 30%;
+float: left;
+}
+.menu{
+    width: 70%;
+    float: left;
+    text-align: right;
+    font-size:15px;
+}
+.onsayi{
+    font-size: 13px !important;
+    color:#FFC107;
+    margin-right: 2px;
+}
+.menu ul li{
+    float: left;
+}
+.menu li a{
+    display: block;
+    padding-right:30px;
+    color:#3f3f3e
+}
+.menu li:first-child a{
+    color:#DC3545;
+}
+.menu li a:hover{
+    transition: all 0.6s;
+    color:#DC3545;
+}
+.menusag{
+    width: 61%;
+    float: right;
+}
+/* Navbar Bitiş */
+/* Content */
+#content{
+    position: relative;
+    width: 100%;
+    height:700px;
+}
+#content img{
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+}
+.solicerik{
+    width: 650px;
+    height: 300px;
+    /* background-color: lightcoral; */
+    position:absolute;
+    left:145px;
+    bottom: 90px;
+}
+.ustkucukyazi{
+    color:white;
+    font-size:15px;
+    font-weight: 500;
+}
+.ortayazi{
+    color:white;
+    font-size:60px;
+    font-weight: 600;
+}
+::selection{
+    background-color: #f9c10b;
+    color: white;
+}
+.altbutonlar{
+margin-top: 25px;
+position: relative;
+}
+.buyukB{
+    border-radius: 35px;
+    background-color:#DC3545;
+    padding: 15px 25px;
+    font-size:15px;
+    font-weight: bold;
+    color:white;
+    cursor: pointer;
+    transition: all .5s;
+}
+.kucukB{
+    position: absolute;
+    top:5px;
+    left:220px;
+   font-size:40px;
+   color:white;
+   transition: all .5s;
+}
+.kucukB:hover{
+   color: #f9c10b;
+}
+.buyukB:hover{
+background-color: #f9c10b;
+}
+.sagoklar{
+    width: 150px;
+    position: absolute;
+    right:100px;
+    bottom:90px;
+    font-size:90px;
+    color:white;
+}
+.oklar:hover{
+    color:rgb(218, 216, 216);
+    cursor: pointer;
+    transition: .3s;
+}
+/* Slider bitti alt içerik başlıyor */
+#content-alt1{
+    background-color: white;
+    padding: 120px 0;
+    height: auto;
+    overflow: hidden;
+}
+.alt1-div{
+    height: 600px;
+    width: 50%;
+    float: left;
+}
+.adam{
+    position: relative;
+}
+.adam img{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    object-fit: cover;
+}
+.altyazi{
+    font-family: 'Times New Roman', Times, serif !important;
+    padding: 30px 30px;
+    color:white;
+    font-weight: bold;
+    position: absolute;
+    bottom:0px;
+    right: 10px;
+    font-size:16px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    line-height: 28px;
+    background-color:rgba(0,0,0,0.3)
+}
+.sust1{
+    border-radius: 30px;
+    height: 400px;
+    background-color: white;
+    box-shadow: 0 0 15px #bbbaba;
+    padding: 40px !important;
+}
+.sariyazi{
+    color:#f9c10b
+}
+.mb10{
+    margin-bottom: 15px;
+}
+.fz24{
+    font-size:18px;
+    color:#8d8b8b;
+}
+.salt1{
+    height: 185px;
+}
+.solalt{
+    width: 48%;
+    float: left;
+    height: inherit;
+    border-radius: 30px;
+    padding: 40px 30px;
+}
+.solalt1{
+    margin-right: 24px;
+    background-color: #dc3545;
+}
+.solalt2{
+    background-color: #f9c10b;
+}
+.beyazyazi{
+    font-size:22px;
+    color:white;
+    font-weight: 500;
+}
+.altB{
+    padding: 12px 24px;
+    background-color:#f9c10b ;
+    font-size: 16px;
+    font-weight: 500;
+    color:white;
+    border-radius:35px ;
+}
+.altB:hover{
+    color:black;
+    background-color: white;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+/* İçerik alt1 bitti alt 2 başladı */
+#content-alt2{
+    background-color:#dddcdc;
+    padding: 120px 0;
+    height: auto;
+    overflow: hidden;
+    
+}
+
+.alt2-sol{
+    width: 45%;
+    /* background-color: yellow; */
+    height: 600px;
+    float: left;
+
+}
+.altortaksol{
+    width: 100%;
+    padding: 30px 10px;
+    height: 160px;
+    margin-bottom: 25px;
+    border-left:8.5px solid #717275;
+    transition: 0.5s;
+}
+.solextra{
+    border-left:8.5px solid #dc3545;
+    background-color: white;
+    cursor: pointer;
+    box-shadow: 0 20px 20px #c2bebe;
+}
+.o:hover{
+    border-left:8.5px solid #dc3545;
+    background-color: white;
+    box-shadow: 0 20px 20px #c2bebe;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.o:hover  h1{
+color:#f9c10b;
+}
+.o p,.altortaksol p{
+    font-weight: 100;
+    color:gray;
+}
+.alt2-sag{
+    width: 50%;
+    margin-left: 5%;
+    height: 600px;
+    float: left;
+}
+.alt2-sag img
+{
+    display: block;
+    width: 100%;
+    height: 350px;
+}
+.alt2-sag ul{
+    margin-left: 35px;
+}
+.alt2-sag ul li{
+    list-style-type: disc;
+    line-height: 30px;
+}
+/* Project */
+#project{
+    background-color:#fff;
+    padding: 120px 0 0 0;
+    height: auto;
+    overflow: hidden;
+}
+.portak{
+    width: 32%;
+    height: 400px;
+    border-radius: 30px;
+    margin-right: 2%;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.portak:last-child{
+    margin-right: 0!important;
+}
+.portak img{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    transition: all .3s;
+}
+.projectust{
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+.pyazi{
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    color:white;
+    transition: all .3s;
+}
+.picon{
+    position: absolute;
+    padding: 20px 23px;
+    background-color: #DC3545;
+    font-size:24px;
+    right: 30px;
+    color:white; 
+    bottom: 25px;
+    border-radius: 50%;
+}
+.portak:hover img{
+    transform: scale(1.2);
+    transition: all .3s;
+
+}
+.portak:hover .pyazi{
+bottom:45px;
+transition: all .3s;
+}
+.portak:hover .picon{
+    background-color: #f9c10b;
+    transition: all .3s;
+}
+
+.projectalt{
+    height: 100%;
+    overflow: hidden;
+    
+}
+
+.footeralt{
+    width: 100%;
+    height: 620px;
+    background-color: #f9c10b;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.form{
+    width: 606px;
+    height: 589px;
+    display: inline-block;
+    float: left;
+}
+.h2{
+    font-size: 42px;
+    color: #000;
+    margin-bottom: 48px;
+}
+.yourname,.email{
+    width: 291px;
+    height: 53px;
+    background-color: #f9c10b;
+    color: #fff !important;
+    font-size: large;
+    font-weight: 400;
+    border-bottom: 2px solid #fff !important;
+}
+.yourname input {
+    float: left;
+
+}
+
+.email input {
+    margin-left: 30px;
+    float: left;
+
+}
+#message{
+    background-color: #f9c10b;
+    margin-top: 30px;
+    width: 600px;
+    height: 197px;
+    border-bottom: 2px solid #fff !important;
+}
+.buton2{
+    margin-top: 10px;
+    background-color: #DC3545;
+    border-radius: 50px;
+    width: 604px;
+    height: 50px;
+}
+
+.altsağ{
+    position: absolute;
+    top: -70px;
+    right: 250px;
+    background-color: white;
+    display: inline-block;
+    width: 636px;
+    height: 589px;
+    padding: 40px;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+.altsağ h4{
+    font-size: 32px;
+    margin-bottom: 24px;
+}
+.span1,.span2{
+    display: block;
+    font-size: 32px;
+    color: #717275;
+}
+.span1 i ,.span2 i{
+    color: #f9c10b;
+}
+.orta{
+    position: absolute;
+    top: 100px;
+    left: 350px; 
+    margin: auto;
+   width: 1300px; 
+   height: 599px;
+}
+.map{
+    margin-top: 40px;
+    width: 99%;
+    height: 300px;
+}
+.boşluk{
+    position: absolute;
+    top: 600px;
+    width: 100%;
+    height: 120px;
+    background-color: #f9c10b;
+}
+.footeralt2{
+    width: 100%;
+    height: 114px;
+    position: absolute;
+    top: 720px;
+    padding: 40px;
+    background-color: #f9c10b;
+}
+.ortalama{
+    width: 60%;
+    height: 114px;
+    margin: auto;
+}
+.ortalama i{
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    padding: 7px;
+    border-radius: 50%;
+    color: #000;
+    background-color: white;
+}

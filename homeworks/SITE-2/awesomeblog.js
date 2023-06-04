@@ -1,0 +1,1 @@
+console.log("Bu yazıyı okuyan tosun okuyana koysun");

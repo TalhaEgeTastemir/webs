@@ -1,0 +1,68 @@
+.header{
+    height: 100px;
+    width: 100%;
+    border-bottom: 1px solid rgb(207, 207, 207);
+    background-image: url(../anasayfa/resimvelogo/banner-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999999999999999999999;
+}
+.içdiv{
+    position: relative;
+    width: 70%;
+    height: 100px;
+    margin: auto;
+}
+
+.logo{
+    position: absolute;
+    top: 25px;
+    left: 0px;
+    width: 166px;
+    height:80px;
+}
+.navigation {
+    position: absolute;
+    top: 40%;
+    right:20%;
+    font: 24px;
+}
+.navigation ul li{
+    display: inline-block;
+    padding: 0px 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: large;
+}
+
+.buton{
+    width:200px;
+    height:42px;
+    border-radius: 8px;
+    border: none;
+    background-color:#576172 ;
+    position: absolute;
+    top: 30%;
+    right: 0;
+}
+
+.buton i{
+    width: 30px;
+    height: 30px;
+    background-color: #8d99AF;
+    color: white;
+    position: absolute;
+    top: 6px;
+    left: 10px;
+    line-height: 30px;
+    border-radius: 50%;
+}
+.bt{
+    position: absolute;
+    top: 13px;
+    left: 70px;
+}
